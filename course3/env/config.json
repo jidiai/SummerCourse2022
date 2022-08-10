@@ -1,0 +1,13 @@
+{
+  "classic_Pendulum-v0": {
+    "class_literal": "CCGame",
+    "n_player": 1,
+    "is_obs_continuous": true,
+    "is_act_continuous": true,
+    "act_box": {"low": -2.0, "high":2.0, "shape":[1]},
+    "game_name": "Pendulum-v0",
+    "agent_nums": [1],
+    "max_step": 200,
+    "obs_type": ["vector"]
+  }
+}

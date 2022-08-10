@@ -1,0 +1,12 @@
+{
+  "revive-refrigerator": {
+    "class_literal": "Refrigerator",
+    "n_player": 1,
+    "max_step": 2000,
+    "game_name": "refrigerator",
+    "is_obs_continuous": true,
+    "is_act_continuous": true,
+    "agent_nums": [1],
+    "obs_type": ["dict"]
+  }
+}

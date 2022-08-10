@@ -1,0 +1,15 @@
+{
+  "reversi_1v1": {
+    "class_literal": "Reversi",
+    "n_player": 2,
+    "board_width": 10,
+    "board_height": 10,
+    "max_step": 100,
+    "cell_range": 3,
+    "game_name": "reversi",
+    "is_obs_continuous": false,
+    "is_act_continuous": false,
+    "agent_nums": [1,1],
+    "obs_type": ["grid","grid"]
+  }
+}

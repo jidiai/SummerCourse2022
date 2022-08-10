@@ -1,0 +1,10 @@
+__pycache__
+/*/__pycache__/
+/*/*/__pycache__/
+.idea*
+/course1/logs/
+/course2/logs/
+/course3/logs/
+/course4/logs/
+/course5/logs/
+.DS_Store
