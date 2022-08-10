@@ -113,7 +113,7 @@ class Reversi(GridGame, GridObservation):
                 elif self.last == 1:
                     # print("双方均没有可选位置")
                     self.done = 1
-                return next_state, info_after
+                return self.all_observes, info_after
             # 一方无子可落，交换下棋人选后 新的一方有合法位置
             else:
                 if self.last == 1:
