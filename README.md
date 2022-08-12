@@ -15,6 +15,11 @@
 ---
 ### Env Dependency
 
+#### Install Anaconda or Miniconda
+
+- Anaconda: https://www.anaconda.com/products/distribution
+- Miniconda: https://conda.io/projects/conda/en/latest/user-guide/install/index.html
+
 >conda create -n jidi_2022 python=3.7.5
 
 >conda activate jidi_2022
