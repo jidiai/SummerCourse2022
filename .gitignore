@@ -8,3 +8,4 @@ __pycache__
 /course4/logs/
 /course5/logs/
 .DS_Store
+logs/*

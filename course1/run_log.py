@@ -173,7 +173,7 @@ if __name__ == "__main__":
     # 非"classic_"环境，使用replay工具包的replay.html，通过上传.json进行网页回放
     render_mode = True
 
-    policy_list = ["random"] * len(game.agent_nums)
+    policy_list = ['BC_submission', 'random']    #["random"] * len(game.agent_nums)
     # To test submission, set policy_list as below
     # policy_list = ["submission"] * len(game.agent_nums) or
     # policy_list = ["folder1_under_examples", "folder2_under_examples"]
