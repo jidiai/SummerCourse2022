@@ -102,11 +102,14 @@ def run_game(g, env_name, multi_part_agent_ids, actions_spaces, policy_list, ren
         if policy_list[i] not in get_valid_agents():
             raise Exception("agents {} not valid!".format(policy_list[i]))
 
-        file_path = os.path.dirname(os.path.abspath(__file__)) + "/examples/" + policy_list[i] + "/submission.py"
+        file_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "examples", policy_list[i],
+                                 "submission.py")
         if not os.path.exists(file_path):
             raise Exception("file {} not exist!".format(file_path))
 
-        import_path = '.'.join(file_path.split('/')[-4:])[:-3]
+        _, dir_name = os.path.split(os.path.dirname(os.path.abspath(__file__)))
+        import_path = '.'.join([dir_name, 'examples', policy_list[i], 'submission'])
+        # import_path = '.'.join(file_path.split('/')[-4:])[:-3]
         function_name = 'm%d' % i
         import_name = "my_controller"
         import_s = "from %s import %s as %s" % (import_path, import_name, function_name)
