@@ -11,5 +11,19 @@
     "is_act_continuous": false,
     "agent_nums": [1,1],
     "obs_type": ["grid","grid"]
+  },
+  "sokoban_1p": {
+    "class_literal": "Sokoban",
+    "n_player": 1,
+    "board_width": 8,
+    "board_height": 8,
+    "cell_range": 5,
+    "max_step": 50,
+    "level": 2,
+    "game_name": "sokoban",
+    "is_obs_continuous": false,
+    "is_act_continuous": false,
+    "agent_nums": [1],
+    "obs_type": ["grid"]
   }
 }

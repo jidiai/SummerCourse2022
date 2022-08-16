@@ -169,6 +169,7 @@ def get_valid_agents():
 
 if __name__ == "__main__":
 
+    # "sokoban_1p", "reversi_1v1"
     env_type = "reversi_1v1"
     game = make(env_type)
 
