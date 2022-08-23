@@ -22,5 +22,13 @@ Complete examples/submission/submission.py, and then set "policy_list" in line 1
 
 If no errors, your submission is ready to go~
 
+
+### Ready to submit
+> random: [random/submission.py](examples/random/submission.py)
+
+> REVIVE Example: [revive_example/submission.py](examples/revive_example/submission.py) 
+> and [revive_example/revive_policy.pkl](examples/revive_example/revive_policy.pkl)
+
+
 ___
 Have a good time~~~

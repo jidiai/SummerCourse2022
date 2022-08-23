@@ -180,6 +180,8 @@ if __name__ == "__main__":
     # To test submission, set policy_list as below
     # policy_list = ["submission"] * len(game.agent_nums) or
     # policy_list = ["folder1_under_examples", "folder2_under_examples"]
+    # use ddpg
+    # policy_list = ["ddpg"] * len(game.agent_nums)
 
     multi_part_agent_ids, actions_space = get_players_and_action_space_list(game)
     run_game(game, env_type, multi_part_agent_ids, actions_space, policy_list, render_mode)

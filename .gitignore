@@ -9,3 +9,6 @@ __pycache__
 /course5/logs/
 .DS_Store
 logs/*
+/course3/examples/ddpg/trained_model
+/course3/docs/rlcn_2022_rl_algorithms
+/course4/docs/rlchina_pbl
